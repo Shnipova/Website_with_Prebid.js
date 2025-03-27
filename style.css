@@ -5,6 +5,7 @@
  body{
     background-color:#f9faf4;
     margin: 0;
+
  }
  
  #page-wrapper{
@@ -19,7 +20,7 @@
     align-items: center;
     justify-content:space-between;
     margin: 60px 0 60px;
-    padding: 0 120px;
+    padding: 0 20px;
  }
  /* trying make a burger menu */
  .nav{
@@ -114,7 +115,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 20px 0 20px;
-    padding: 0 120px;
+    padding: 0 12px;
 
   }
  .About-me{
@@ -181,7 +182,7 @@
  }
  #Cards{
      height: auto;
-     padding: 0 120px; 
+     padding: 0 12px; 
      margin: 0 auto 60px;
      max-width: 100%;
      display:grid;
@@ -487,6 +488,9 @@ background-color:white;
    *{
       box-sizing:border-box;
    }
+   #page-wrapper {
+      width:100%;
+   }
    header{
     border: 1px solid transparent;
     display: flex;
@@ -709,7 +713,7 @@ background-color:white;
 }
 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 537px){
  .Get-in-touch{
     width:90%;
  }
@@ -737,5 +741,34 @@ background-color:white;
     
  }
 
+ body{
+   width: fit-content;
+
+ }
+
+.about-me-section {
+   align-content: center;
+
+}
+.about-me-container {
+   flex-direction: column;
+   align-items: center;
+
+
+}
+.title-SS {
+   text-align:center;
+}
+#ad-slot {
+   width: auto;
+
+}
+
+
+ /* kjl */
+
+
+   
+ 
 }
 
