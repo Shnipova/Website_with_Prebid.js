@@ -1,0 +1,741 @@
+*{
+    box-sizing: border-box;
+ }
+ 
+ body{
+    background-color:#f9faf4;
+    margin: 0;
+ }
+ 
+ #page-wrapper{
+    border: 1px solid transparent;
+    width:80%;
+    margin:0px auto;
+    
+ }
+ header{
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 60px 0 60px;
+    padding: 0 120px;
+ }
+ /* trying make a burger menu */
+ .nav{
+    border-bottom: 1px solid #723b3b;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+ }
+    
+ .menu{
+    margin:0 10px 0 0;
+ 
+ }
+ .menu a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .menu a:hover {
+    text-decoration: underline;
+  }
+ 
+ input[type=checkbox]{
+    display: none;
+    visibility: hidden;
+ }
+ 
+ /* ends to making burger menu */
+    .menu ul li{
+       display: inline;
+       margin:0 auto;
+       padding: 0 24px;
+       font-size: 16px;
+       font-family:'Tinos';
+       font-weight: 500;
+ 
+    }
+ 
+    
+    .logo{
+        height: 150px;
+    }
+ 
+   
+    
+    .contact-me{
+       position:relative;
+       padding: 12px 20px 10px;
+       background-color:transparent;
+       border-radius: 12px;
+       border: 2px solid black;
+       font-family: 'Tinos';
+       font-weight: 500;
+       font-size: 16px;
+    }
+    #ad-slot {
+        width: 500px;
+        height: 500px;
+        border: 1px solid #ccc;
+        text-align: center;
+        justify-content:center;
+        align-items: center; 
+        margin: auto;
+        line-height: 500px;
+        font-family: Arial, sans-serif;
+        color: #888;
+       
+      }
+  
+ .title-SS{
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+    font-size: 35px;
+    font-family:'Tinos';
+    font-weight: 400;
+    color: #351c0c;
+    text-shadow:  4px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+ }
+ .about-me-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:relative;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+ }
+  .about-me-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 20px;
+    padding: 0 120px;
+
+  }
+ .About-me{
+    font-size: 18px;
+    font-family:'Jaldi';
+    font-weight: 400;
+    color: #473f3f;
+    text-align-last: center;
+    width: 63.17%;
+    margin:40px auto 20px;
+ }
+ 
+ .additional-about-me{
+    font-size: 18px;
+    font-family:'Tinos';
+    font-weight: 400;
+    color: #473f3f;
+    text-align-last: center;
+    width: 63.17%;
+    margin:0 auto 40px ;
+ }
+ 
+ .personal_photo{
+   
+    height: 360px;
+
+
+    border-radius: 24px;
+    object-fit: cover;
+    margin: 60px auto 60px;
+    display: block;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+    
+ }
+ 
+ #Lets-get-in-touch{
+    font-size: 12px;
+    font-family: 'inter';
+    font-weight: 400;
+ }
+ .Get-in-touch{
+    padding: 24px 32px 24px;
+    background-color:transparent;
+    border-radius: 12px;
+    border: 2px solid black;
+    margin:0 auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ }
+ 
+ .section-title{
+    font-size: 40px;
+    font-family: 'Hubballi';
+    font-weight: 400;
+    text-align-last: center;
+    margin: auto 60px;
+    padding: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+ }
+ #Cards{
+     height: auto;
+     padding: 0 120px; 
+     margin: 0 auto 60px;
+     max-width: 100%;
+     display:grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-auto-rows: 1fr;
+     gap: 32px; 
+ }
+ #Cards .Card{
+    background-color: #FFFFFF;
+    
+     border-radius: 24px;
+     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+     
+ 
+ }
+ .img_Card {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 24px 24px 0px 0px; 
+    filter: saturate(0%)  brightness(150%);
+ }
+ 
+ .card_title{
+ 
+    font-size: 22px;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    text-align-last:left;
+    margin:24px 24px 10px ;
+ 
+ }
+ 
+ .card_description{
+    font-size: 20px;
+    font-family: 'IBM Plex Sans JP';
+    font-weight: 400;
+    text-align-last:left;
+    margin:0 24px 60px ;
+    color:#747474;
+ 
+ }
+ 
+ 
+ .Work-prosses-section{
+    border: 1px solid transparent;
+
+    background-image:linear-gradient(#e0e3d6, #bababa);
+    border-radius: 40px 40px 0px 0px;
+   width: 100%;
+ }
+ .line{
+    height: 2px; /* adjust the height to reduce the line thickness */
+    width: 80%; /* adjust the width to reduce the line length */
+    color:#747474;
+    margin: 24px auto;
+ }
+ 
+ .Work-prosses-title{
+    font-size: 45px;
+    font-family: 'Inter';
+    font-weight: 400;
+    text-align-last:left;
+    margin:0 ;
+ }
+ 
+ .Work-prosses-description{
+    font-size: 25px;
+    font-family: 'Inter';
+    font-weight: 400;
+    text-align-last:left;
+    margin:0 120px 60px ;
+ }
+ 
+ .number{
+    font-size: 40px;
+   font-family: 'Fenix';
+   font-weight: 400;
+   border: 2px solid black;
+   width: 48px;
+   height: 48px;
+   text-align-last:center;
+   border-radius:24px;
+   position:relative;
+}
+
+.group-title-number{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+margin:0 120px 0;
+}
+
+.get-in-touch-section{
+
+   border: 1px solid transparent;
+   background-color:#3a3937;
+;
+
+}
+.title-get-in-touch{
+   font-size: 56px;
+   font-family: 'Inter';
+   font-weight: 400;
+   text-align-last:center;
+   color:#F2F2F2;
+   margin: 80px auto 40px;
+}
+
+.get-in-touch-description{
+   font-size: 20px;
+   font-family: 'Inter';
+   font-weight: 400;
+   text-align-last:center;
+   color:#F2F2F2;
+   margin:0 auto 24px;
+
+}
+/*  */
+
+textarea, input{
+   background-color: rgba(255, 255, 255, 0.12);
+   border-radius: 12px;
+   font-size: 12px;
+   font-family: 'Inter';
+   font-weight: 400;
+   text-align-last:left;
+   color:rgba(255, 255, 255, 0.40);
+   border:0 ;
+   display:block;
+  
+}
+
+.form{
+   display:grid;
+   width: 100%;
+   justify-content: center;
+  
+}
+input{
+   height: 37px;
+   width: 47%;
+}
+
+.input-field{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+   justify-content:space-between;
+   height: 37px;
+   
+}
+textarea{
+   width: 504px; 
+   height: 84px;
+   resize: vertical;
+}
+
+.Send-message{
+   padding: 24px 32px 24px;
+   background-color:transparent;
+   border-radius: 12px;
+   border: 2px solid#FFFFFF;
+   margin:0 auto 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   font-size: 15px;
+   font-family: 'inter';
+   font-weight: 600;
+   color:#FFFFFF;
+}
+
+
+
+footer{
+   background-color:#3a3937;
+   padding: 40px 120px 40px;
+}
+
+
+.footer-container{
+   width:100%;
+ 
+
+}
+
+
+.social-icons{
+display: flex;
+align-items:center; 
+justify-content: center;
+}
+
+.social-icons a{
+text-decoration: none;
+padding: 10px;
+margin: 0 30px;
+border-radius:50%;
+background-color:white;
+
+}
+
+.social-icons a i{
+   font-size: 2em;
+   color:black;
+   opacity: 0.9;
+   
+}
+
+/* hover efects on social media icons */
+.social-icons a:hover{
+   background-color:#111;
+   transition:0.5s;
+}
+
+.social-icons a:hover i{
+   color:white;
+   transition:0.5s;
+}
+
+
+.nav-social-media{
+   margin: 20px 0;
+
+}
+
+.nav-social-media ul{
+   display:flex;
+   justify-content: center;
+   list-style-type: none;
+   padding: 0;
+
+    
+}
+
+.nav-social-media ul li a{
+   color:white;
+   margin:24px;
+   text-decoration: underline;
+   font-size: 16px;
+   font-weight: 200;
+   opacity:0.7;
+   transition:0.5s;  
+}
+
+.nav-social-media ul li a:hover{
+   opacity: 3;
+}
+
+ /* desktop size ends there */
+
+
+
+@media(min-width:1500px){
+    .title-SS{
+        font-size: 50px;
+    }
+    .About-me{
+        font-size: 30px;
+    }
+    .additional-about-me {
+        font-size: 30px;
+    }
+    .personal_photo {
+        height: 500px;
+    }
+
+}
+@media(max-width: 1183px){
+   .menu ul li{
+      display: flex; flex-flow: row nowrap;
+   }
+
+   #Cards{
+      padding: 0 20px;
+   }
+ .Work-prosses-title{
+    font-size: 35px;
+ }
+
+}
+
+@media screen and (min-width: 822px){
+
+   input[type=text]{
+      display: none;
+      visibility: hidden;
+   }
+
+   .toggle{
+      display: none;
+      visibility: hidden;
+   }
+
+   
+}
+
+@media screen and (max-width: 822px){
+
+   *{
+      box-sizing:border-box;
+   }
+   header{
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:space-between;
+    margin: 10px 0 10px;
+    padding: 0 20px 0 ;
+ }
+ #Button-contact-me{
+    display: none;
+ }
+ .slide{
+    height: 40%;
+    width: 25%;
+    position:absolute;
+    background-color:#FFFFFF;
+    transition:0.5s ease;
+    transform: translateX(-200%); 
+    border-radius: 24px;
+    display: flex;
+    align-items: center; 
+ }
+ ul{
+    padding: 0 0 0 15px;
+ }
+ .menu ul li{
+    list-style: none;
+    display: block;
+    padding: 5px 0;
+    text-transform: capitalize;
+
+ }
+ input[type=checkbox]{
+    display: none;
+    visibility: hidden;
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+
+ }
+ .toggle{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    
+    z-index: 1;
+    cursor: pointer;
+    border-radius:2px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ }
+
+ .toggle .common{
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color:black;
+    border-radius: 50px;
+    transition: 0.3s ease;  
+ }
+
+ .toggle .top_line{
+   top: 7px;
+   left: 50%;
+    transform: translate(-50%, -50%)
+ }
+
+ .toggle .middle_line{
+    top: 14px;
+    left: 50%;
+    transform: translate(-50%, -50%)
+ }
+ .toggle .bottom_line{
+    top: 21px;
+    left: 50%;
+    transform: translate(-50%, -50%)
+ }
+ input[type=checkbox]:checked ~ .toggle .top_line{
+    left: 2px;
+    top: 14px;
+    width: 25px;
+     transform: rotate(45deg);
+  }
+  input[type=checkbox]:checked ~ .toggle .middle_line{
+    opacity: 0;
+    transform: translateX(20px);
+ }
+ input[type=checkbox]:checked ~ .toggle .bottom_line{
+   left: 2px;
+   top: 14px;
+   width: 25px;
+    transform: rotate(-45deg);
+ }
+ 
+ input[type=checkbox]:checked ~ .slide{
+    transform: translateX(20%);
+    /* visibility: collapse; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5)
+ }
+
+ .card_description {
+    margin: 0 14px 20px;
+    font-size: 15px;
+    font-weight: 200;
+ }
+}
+
+@media screen and (max-width: 641px){
+
+ .title-SS{
+    width: 90%;
+    font-size: 35px;
+ } 
+ .About-me{
+    font-size: 14px;
+    width: 90%;
+    
+ }
+ .additional-about-me {
+    font-size: 14px;
+    width: 90%;
+ }
+
+#Cards{
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+ height: auto; /* Allow height to adjust with content */
+ min-height: 426px;
+}
+
+.Work-prosses-section{
+ height: auto;
+}
+ .form{
+    
+    width: 100%;
+    justify-content: center;
+   
+ }
+ input{
+    height: 37px;
+    gap: auto;
+    width: 90%;
+    /* margin: 24px 24px 0; */
+    float: left;
+
+ }
+ 
+ .input-field{
+  display: table;
+    height: 37px;
+    
+ }
+ textarea{
+    width: 90%; 
+    height: 84px;
+    margin: 8px 24px 0;
+    resize: vertical;
+}
+    
+ 
+ textarea, input{
+    padding: 10px 16px 12px;
+    margin: 24px 24px 0;
+ }
+
+ .section-title {
+    font-size: 30px;
+    margin: 0;
+ }
+
+ .Work-prosses-title {
+    font-size: 30px;
+
+ }
+
+ .group-title-number {
+    margin: 14px 24px;
+ }
+ .line {
+    margin:0 auto 14px;
+ }
+
+ .number {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Work-prosses-description{
+ font-size: 14px;
+ margin: 0 24px 20px;
+}
+.title-get-in-touch{
+ font-size: 35px;
+ margin:20px 24px 40px;
+}
+.get-in-touch-description{
+ font-size: 15px;
+ margin: 0 24px 0;
+}
+
+.Send-message{
+ font-size: 15px;
+ margin:15px auto 30px;
+}
+}
+@media screen and (max-width: 491px){
+ .menu ul li{
+    font-size: 18px;
+ }
+ .slide {
+    width:50%;
+ }
+}
+
+
+@media screen and (max-width: 400px){
+ .Get-in-touch{
+    width:90%;
+ }
+ .title-SS{
+    width: 90%;
+    font-size: 25px;
+ }
+ textarea, input{
+    margin: 24px 10px 0;
+ }
+ .section-title {
+    font-size: 20px;
+    margin: 0;
+ }
+ .Work-prosses-title {
+    font-size: 20px;
+ }
+ .title-get-in-touch{
+    font-size: 20px;
+
+ }
+ .Send-message{
+    width: 90%;
+    margin:10px auto 30px;
+    
+ }
+
+}
+

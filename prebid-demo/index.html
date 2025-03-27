@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width",initial-scale="1">
+      <link rel="stylesheet" href="style.css">
+      <!-- font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<script async src="https://cdn.jsdelivr.net/npm/prebid.js@latest/dist/not-for-prod/prebid.js"></script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<!-- 
+links to icons -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title> This is my first web page!</title>
+
+   </head>
+
+   <body>
+   <div id="page-wrapper">
+      <header>
+         <div class="logo-of-my-company">
+            <img class ="logo" src='image/logo.png'>
+         </div>
+<label > 
+   <input type="checkbox">
+   <div class="toggle">
+      <span class="top_line common"></span>
+      <span class="middle_line common"></span>
+      <span class="bottom_line common"></span>
+   </div>
+
+   <div class="slide">
+
+   <nav class="menu">
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#Cards">My Works</a></li>
+        <li><a href="#process">Work process</a></li>
+      </ul>
+   </nav>
+</div>
+ </label>
+
+         <div id="Button-contact-me">
+            <a href="https://t.me/Svitlana_Shnipova">
+               <button class="contact-me">Contact me</button>
+            </a>
+            
+           </div>
+
+       </header>
+
+
+      <div>
+         
+  <div id="ad-slot">
+    Loading Ad...
+  </div>
+
+  <script>
+    var PREBID_TIMEOUT = 700;
+    var adUnits = [{
+      code: 'ad-slot',
+      mediaTypes: {
+        banner: {
+          sizes: [[500, 500]]
+        }
+      },
+      bids: [{
+        bidder: 'appnexus',
+        params: {
+          placementId: '12345678' // Replace with a real placement ID if available
+        }
+      }]
+    }];
+    // ======== DO NOT EDIT BELOW THIS LINE =========== //
+    // Code from prebid.org/dev
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+googletag.cmd.push(function() {
+  googletag.pubads().disableInitialLoad();
+});
+
+var pbjs = pbjs || {};
+pbjs.que = pbjs.que || [];
+
+pbjs.que.push(function() {
+  pbjs.addAdUnits(adUnits);
+  pbjs.requestBids({
+    bidsBackHandler: initAdserver
+  });
+});
+
+function initAdserver() {
+  if (pbjs.initAdserverSet) return;
+  pbjs.initAdserverSet = true;
+  googletag.cmd.push(function() {
+    pbjs.setTargetingForGPTAsync && pbjs.setTargetingForGPTAsync();
+    googletag.pubads().refresh();
+  });
+}
+
+setTimeout(function() {
+  initAdserver();
+}, PREBID_TIMEOUT);
+
+googletag.cmd.push(function() {
+  googletag.defineSlot('/19968336/header-bid-tag-1', [500, 500], 'div-1')
+    .addService(googletag.pubads());
+  googletag.pubads().enableSingleRequest();
+  googletag.enableServices();
+});
+</script>
+  
+</script>
+<!-- Continue building the layout of the website -->
+
+</div>
+    
+      </div>
+      <div id="about" class = "about-me-container">
+      <div class = "about-me-section">
+     
+      <div class="title-SS">Svitlana Shnipova - QA Engineer </div>
+
+<div class="About-me">Hi, I’m Svitlana — a QA Engineer who’s genuinely passionate about building better products through thoughtful testing and clear communication. I combine a detail-oriented mindset with a big-picture approach, making sure not just that things work, but that they make sense for users.</div>
+<div class="additional-about-me">My experience spans manual and API testing to automation with tools like Selenium and Rest Assured. I thrive in collaborative environments, love digging into bugs others miss, and I’m always the one asking “what if” to catch edge cases before they become real issues. I’ve worked across fast-paced dev teams, adapted to new technologies quickly, and continuously look for ways to make testing more efficient, effective, and human.</div>
+
+   </div> 
+
+   <img class ="personal_photo" src='image/photo_2025-03-25 15.45.40.jpeg'>
+
+</div>
+</div>
+
+   <div id="Lets-get-in-touch">
+      <a href="mailto:shnipowa.swet@gmail.com"target="_blank" style="text-decoration: none; color: inherit;">
+         <button class="Get-in-touch">Let's get in touch</button>
+      </a>
+      
+     </div>
+     <div class="section-title">My works</div>
+     
+<div id="Cards">
+   
+    <div class="Card">
+        <img class="img_Card" src="image/firstCard.png" alt="QA Samples Preview">
+      
+        <a href="https://github.com/Shnipova/AutomationTest" target="_blank" style="text-decoration: none; color: inherit;">
+          <h2 class="card_title">Automation Demo</h2>
+          <p class="card_description">Java + Selenium test for uploading and validating products.</p>
+        </a>
+      </div>
+
+<div class="Card">
+    <img class="img_Card" src="image/secondCard.png" alt="QA Samples Preview">
+  
+    <a href="https://github.com/Shnipova/TestCase_Sample" target="_blank" style="text-decoration: none; color: inherit;">
+      <h2 class="card_title">QA Samples</h2>
+      <p class="card_description">Test Cases & Bug Reports</p>
+    </a>
+  </div>
+
+  <div class="Card">
+    <img class="img_Card" src="image/thirdCard.png" alt="QA Samples Preview">
+  
+    <a href="https://youtu.be/JRfbORSTBwQ?si=uSw1UmhXrY_ejspZ" target="_blank" style="text-decoration: none; color: inherit;">
+      <h2 class="card_title">Jira API Guide</h2>
+      <p class="card_description">Check out the video on creating Jira bug reports via API</p>
+    </a>
+  </div>
+
+</div>
+
+
+
+<div id="process" class="Work-prosses-section">
+   <div class="section-title">Work process</div>
+   <div class="group-title-number"> 
+      <h2 class="Work-prosses-title">QA Mindset</h2>
+      <div class="number">1</div>
+   </div>
+   <hr class="line"> 
+   <p class="Work-prosses-description">I test with the end user in mind — always thinking beyond "does it work?" to "is it usable, clear, and reliable?"</p>
+
+
+   <div class="group-title-number">
+      <h2 class="Work-prosses-title">Clear Bug Reports</h2>
+      <div class="number">2</div>
+   </div>
+   <hr class="line">
+   <p class="Work-prosses-description">Every bug I report includes steps, visuals, and context — making it fast and easy for devs to fix.</p>
+   <div class="group-title-number">
+    <h2 class="Work-prosses-title">Tools That Work</h2>
+    <div class="number">3</div>
+ </div>
+ <hr class="line">
+ <p class="Work-prosses-description">I use tools like Postman, Selenium, and BrowserStack to test efficiently and reproduce complex issues.</p>
+
+
+ <div class="group-title-number">
+    <h2 class="Work-prosses-title">Real Testing Stories</h2>
+    <div class="number">4</div>
+ </div>
+ <hr class="line">
+ <p class="Work-prosses-description"> I once uncovered a product loading bug caused by network loss — caught before it reached production.</p>
+
+
+
+</div>
+
+<div class="get-in-touch-section">
+ <div class="title-get-in-touch">Get in touch</div>
+ <p class="get-in-touch-description">Just fill out the form below and send  me your message</p>
+ 
+<form action="example.html" menthod="get">
+ <!-- <label for="name">Your name</label>  -->
+  <div class="form">
+<div class="input-field">
+
+
+<input maxlength="20" required type="name" id="name" name="fullname" placeholder="Your name" > 
+
+<input maxlength="50" required type="email"id="eml" name="email" placeholder="Your email">
+</div>
+<br>
+<textarea required name="message" id="message" placeholder="message" ></textarea>
+<br><br>
+</div>
+<button class="Send-message"type="submit" value="submit">Send message</button>
+</form>
+
+ </div>
+ 
+ <footer>
+    <!-- <hr class="line-footer"> -->
+    <div class="footer-container">
+      <!-- <div class="logo-of-my-company-footer"> Swet.page</div> -->
+ 
+ <div class="social-icons">
+ 
+ <a href=""><i class="fa-brands fa-instagram"></i></a>
+ <a href=""><i class="fa-brands fa-telegram"></i></a>
+ <a href=""><i class="fa-brands fa-facebook"></i></a>
+ <a href=""><i class="fa-brands fa-linkedin"></i></a>
+ <a href=""><i class="fa-brands fa-github"></i></a>
+
+ </div>
+      <div class="nav-social-media">
+         <ul>
+            <li><a href="https://www.instagram.com/svet_shnipova?igsh=cWs0dWxhZzZ0dXRm&utm_source=qr">Instagram</a> </li>
+            <li><a href="https://t.me/Svitlana_Shnipova">Telegram</a> </li>
+            <li><a href="https://www.facebook.com/share/1HarZEsnAJ/?mibextid=wwXIfr">Facebook</a> </li>
+            <li><a href="https://www.linkedin.com/in/svitlana-shnipova/">LinkedIn</a> </li>
+            <li><a href="https://github.com/Shnipova">GitHub</a></li>
+         </ul>
+     
+      </div>
+   </div>
+   </footer>
+</div>
+
+
+ </div>
+ 
+</body>
+ 
+</html>
